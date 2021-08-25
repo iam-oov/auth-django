@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-v!&sv)3f934h!blc_a2%ur&j15%+%2lboqngevk_+%cl$s9k)9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-unity-eliminar.eba-udhqcc2m.us-west-2.elasticbeanstalk.com']
 
 # Configuración de CORS
-CORS_ORIGIN_WHITELIST = ["http://localhost:3000"]
+CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
 CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
@@ -132,6 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
